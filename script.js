@@ -78,9 +78,9 @@ function mealRecipeModal(meal) {
 
 let img = document.getElementById("imgcontainer")
 let caption = img.querySelector(".caption")
-let slides = ["breakfast.jpeg", "chicken.jpg", "lunch.jpeg", "cake.jpeg", "chocolate.jpg"]
+let slides = ["pictures/breakfast.jpeg", "./pictures/chicken.jpg", "./pictures/lunch.jpeg", "./pictures/cake.jpeg", "./pictures/chocolate.jpg"]
 let start = 0
-let captions =  ["The only way to get rid of a temptation is to yield to it.","Tell me what you eat, and I will tell you what you are","Let food be thy medicine and medicine be thy food","Food is our common ground, a universal experience.","A party without cake is just a meeting."]
+let captions =  ["The only way to get rid of a temptation is to yield to it.","Tell me what you eat, and I will tell you what you are.","Let food be thy medicine and medicine be thy food.","Food is our common ground, a universal experience.","A party without cake is just a meeting."]
 
 function slider() {
     start++;
